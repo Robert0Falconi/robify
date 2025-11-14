@@ -1,122 +1,67 @@
 {
-    "name": "Bad Bunny",
-    "album": "Un Verano Sin Ti",
-    "releaseYear": "2022",
+    "name": "Robbie Williams",
+    "album": "Intensive Care",
+    "releaseYear": "2005",
     "tracks": [
         {
             "id": 1,
-            "name": "Agosto",
-            "path": "/songs/BadBunny/Agosto.mp3"
+            "name": "Ghosts",
+            "path": "/songs/Ghosts.mp3"
         },
         {
             "id": 2,
-            "name": "Aguacero",
-            "path": "/songs/BadBunny/Aguacero.mp3"
+            "name": "Tripping",
+            "path": "/songs/Tripping.mp3"
         },
         {
             "id": 3,
-            "name": "Andrea",
-            "path": "/songs/BadBunny/Andrea.mp3"
+            "name": "Make Me Pure",
+            "path": "/songs/MakeMePure.mp3"
         },
         {
             "id": 4,
-            "name": "Callaita",
-            "path": "/songs/BadBunny/Callaita.mp3"
+            "name": "Spread Your Wings",
+            "path": "/songs/SpreadYourWings.mp3"
         },
         {
             "id": 5,
-            "name": "Después de la Playa",
-            "path": "/songs/BadBunny/Después de la Playa.mp3"
+            "name": "Advertising Space",
+            "path": "/songs/AdvertisingSpace.mp3"
         },
         {
             "id": 6,
-            "name": "Dos Mil 16",
-            "path": "/songs/BadBunny/Dos Mil 16.mp3"
+            "name": "Please Don't Die",
+            "path": "/songs/PleaseDontDie.mp3"
         },
         {
             "id": 7,
-            "name": "Efecto",
-            "path": "/songs/BadBunny/Efecto.mp3"
+            "name": "Your Gay Friend",
+            "path": "/songs/YourGayFriend.mp3"
         },
         {
             "id": 8,
-            "name": "El Apagón",
-            "path": "/songs/BadBunny/El Apagón.mp3"
+            "name": "Sin Sin Sin",
+            "path": "/songs/SinSinSin.mp3"
         },
         {
             "id": 9,
-            "name": "Enséñame a Bailar",
-            "path": "/songs/BadBunny/Enséñame a Bailar.mp3"
+            "name": "Random Acts of Kindness",
+            "path": "/songs/RandomActsofKindness.mp3"
         },
         {
             "id": 10,
-            "name": "La Corriente",
-            "path": "/songs/BadBunny/La Corriente.mp3"
+            "name": "The Trouble With Me",
+            "path": "/songs/TheTroubleWithMe.mp3"
         },
         {
             "id": 11,
-            "name": "Me Fui de Vacaciones",
-            "path": "/songs/BadBunny/Me Fui de Vacaciones.mp3"
+            "name": "A Place to Crash",
+            "path": "/songs/APlacetoCrash.mp3"
         },
         {
             "id": 12,
-            "name": "Me Porto Bonito",
-            "path": "/songs/BadBunny/Me Porto Bonito.mp3"
-        },
-        {
-            "id": 13,
-            "name": "Moscow Mule",
-            "path": "/songs/BadBunny/Moscow Mule.mp3"
-        },
-        {
-            "id": 14,
-            "name": "Neverita",
-            "path": "/songs/BadBunny/Neverita.mp3"
-        },
-        {
-            "id": 15,
-            "name": "Ojitos Lindos",
-            "path": "/songs/BadBunny/Ojitos Lindos.mp3"
-        },
-        {
-            "id": 16,
-            "name": "Otro Atardecer",
-            "path": "/songs/BadBunny/Otro Atardecer.mp3"
-        },
-        {
-            "id": 17,
-            "name": "Party",
-            "path": "/songs/BadBunny/Party.mp3"
-        },
-        {
-            "id": 18,
-            "name": "Tarot",
-            "path": "/songs/BadBunny/Tarot.mp3"
-        },
-        {
-            "id": 19,
-            "name": "Tití Me Preguntó",
-            "path": "/songs/BadBunny/Tití Me Preguntó.mp3"
-        },
-        {
-            "id": 20,
-            "name": "Un Coco",
-            "path": "/songs/BadBunny/Un Coco.mp3"
-        },
-        {
-            "id": 21,
-            "name": "Un Ratito",
-            "path": "/songs/BadBunny/Un Ratito.mp3"
-        },
-        {
-            "id": 22,
-            "name": "Un Verano Sin Ti",
-            "path": "/songs/BadBunny/Un Verano Sin Ti.mp3"
-        },
-        {
-            "id": 23,
-            "name": "Yo No Soy Celoso",
-            "path": "/songs/BadBunny/Yo No Soy Celoso.mp3"
+            "name": "King of Bloke and Bird",
+            "path": "/songs/KingofBlokeandBird.mp3"
         }
     ]
 }
