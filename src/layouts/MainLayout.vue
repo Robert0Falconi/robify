@@ -1,7 +1,7 @@
 <template>
   <q-layout view="lHh Lpr lFf" class="bg-black text-white">
     <!--TOP NAV -->
-    <q-header style="background-color: #101010; opacity: 0.8" class="flex items-center justify-between"
+    <q-header style="background-color: #000000; opacity: 0.8" class="flex items-center justify-between"
       height-hint="60">
       <div class="flex items-center ml-4">
         <q-btn dense round flat @click="goBack">
@@ -15,7 +15,7 @@
       <!-- Menu utente -->
       <div flat round dense class="bg-black hover:bg-[#282828] mr-8" @click="openMenu = !openMenu">
         <div class="flex items-center align-center justify-center">
-          <img class="rounded-full" width="27" style="margin-right: 10px;" src="public/icons/grimer.png" />
+          <img class="rounded-full" width="27" style="margin-right: 10px;" src="public/icons/avatar.jpg" />
           <div class="text-white text-[14px] ml-1.5 font-semibold pe-3 text-uppercase">Roberto Falconi</div>
           <div class="d-flex align-center justify-center">
           </div>
