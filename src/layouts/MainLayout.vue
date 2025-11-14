@@ -13,15 +13,14 @@
       </div>
 
       <!-- Menu utente -->
-      <q-btn flat round dense class="bg-black hover:bg-[#282828] mr-8" @click="openMenu = !openMenu">
-        <div class="flex items-center">
-          <img class="rounded-full" width="27"
-            src="https://yt3.ggpht.com/e9o-24_frmNSSVvjS47rT8qCHgsHNiedqgXbzmrmpsj6H1ketcufR1B9vLXTZRa30krRksPj=s88-c-k-c0x00ffffff-no-rj-mo" />
-          <div class="text-white text-[14px] ml-1.5 font-semibold">Alex Silva</div>
-          <ChevronDown v-if="!openMenu" fillColor="#FFFFFF" :size="25" />
-          <ChevronUp v-else fillColor="#FFFFFF" :size="25" />
+      <div flat round dense class="bg-black hover:bg-[#282828] mr-8" @click="openMenu = !openMenu">
+        <div class="flex items-center align-center justify-center">
+          <img class="rounded-full" width="27" style="margin-right: 10px;" src="public/icons/grimer.png" />
+          <div class="text-white text-[14px] ml-1.5 font-semibold pe-3 text-uppercase">Roberto Falconi</div>
+          <div class="d-flex align-center justify-center">
+          </div>
         </div>
-      </q-btn>
+      </div>
 
       <!-- Dropdown menu -->
       <q-menu v-model="openMenu" transition-show="jump-down" transition-hide="jump-up">
@@ -41,34 +40,27 @@
     <q-drawer show-if-above width="240" class="bg-black text-white">
       <div class="pt-6 flex flex-col items-center">
         <RouterLink to="/">
-          <img class="mt-4" width="125" src="/images/icons/spotify-logo.png" />
+          <img class="mt-4 logomenu" width="125" src="/images/icons/spotify-logo.png" />
         </RouterLink>
 
         <div class="my-8"></div>
 
         <q-list class="w-full">
           <RouterLink to="/">
-            <MenuItem class="ml-[1px]" :iconSize="23" name="Home" iconString="home" pageUrl="/" />
+            <MenuItem class="no-decoration ml-[1px]" :iconSize="23" name="Home" iconString="home" pageUrl="/" />
           </RouterLink>
           <RouterLink to="/search">
-            <MenuItem class="ml-[1px]" :iconSize="24" name="Search" iconString="search" pageUrl="/search" />
+            <MenuItem class="no-decoration ml-[1px]" :iconSize="24" name="Search" iconString="search" pageUrl="/search" />
           </RouterLink>
           <RouterLink to="/library">
-            <MenuItem class="ml-[2px]" :iconSize="23" name="Your Library" iconString="library" pageUrl="/library" />
+            <MenuItem class="no-decoration ml-[2px]" :iconSize="23" name="Your Library" iconString="library" pageUrl="/library" />
           </RouterLink>
 
-          <div class="py-3.5"></div>
+          <!-- <div class="py-3.5"></div> -->
 
-          <MenuItem :iconSize="24" name="Create Playlist" iconString="playlist" pageUrl="/playlist" />
-          <MenuItem class="-ml-[1px]" :iconSize="27" name="Liked Songs" iconString="liked" pageUrl="/liked" />
+          <!-- <MenuItem :iconSize="24" name="Create Playlist" iconString="playlist" pageUrl="/playlist" />
+          <MenuItem class="-ml-[1px]" :iconSize="27" name="Liked Songs" iconString="liked" pageUrl="/liked" /> -->
 
-          <q-separator dark class="my-2" />
-
-          <q-item v-for="n in 4" :key="n" clickable>
-            <q-item-section class="text-gray-300 text-[13px] font-semibold hover:text-white">
-              Playlist {{ n }}
-            </q-item-section>
-          </q-item>
         </q-list>
       </div>
     </q-drawer>
@@ -90,8 +82,6 @@ import { ref, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import MenuItem from 'components/MenuItem.vue'
 import MusicPlayer from 'components/MusicPlayer.vue'
-import ChevronUp from 'vue-material-design-icons/ChevronUp.vue'
-import ChevronDown from 'vue-material-design-icons/ChevronDown.vue'
 import ChevronRight from 'vue-material-design-icons/ChevronRight.vue'
 import ChevronLeft from 'vue-material-design-icons/ChevronLeft.vue'
 

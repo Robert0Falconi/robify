@@ -5,7 +5,9 @@
 
     <!-- Mostra il nome della categoria nella parte superiore della card -->
     <q-card-selection class="text-white text-h6 q-pt-md q-pb-md z-top">
+      <div class="ps-2 pt-2 font-bold">
       {{ category }}
+      </div>
     </q-card-selection>
 
     <!-- Mostra l'immagine della categoria in basso a destra della card -->

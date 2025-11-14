@@ -1,6 +1,6 @@
 <template>
   <q-page class="flex flex-center">
-    <img alt="Quasar logo" src="/public/images/icons/spotify-logo.png" style="width: auto; height: auto" />
+    <img class="logo" alt="Quasar logo" src="/public/images/icons/spotify-logo.png" style="width: auto; height: auto" />
   </q-page>
   <!--<category-select></category-select>-->
   <!--<home-card></home-card>-->

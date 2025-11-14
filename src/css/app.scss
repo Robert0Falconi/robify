@@ -1,1 +1,38 @@
 // app global css in SCSS form
+.logo {
+  max-width: 300px;
+}
+
+.logomenu {
+    padding: 10px;
+}
+
+.rounded-full {
+  border-radius: 50%;
+}
+
+.d-flex {
+  display: flex;
+}
+.align-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+a {
+  text-decoration: none !important;
+}
+.ps-2 {
+  padding-left: 0.5rem;
+}
+.pt-2 {
+  padding-top: 0.5rem;
+}
+.pe-3 {
+  padding-right: 0.75rem;
+}
+
+footer {
+      z-index: 9999999;
+}
