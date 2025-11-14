@@ -40,13 +40,13 @@
         },
         {
             "id": 8,
-            "name": "Sin Sin Sin",
+            "name": "SinSinSin",
             "path": "/songs/SinSinSin.mp3"
         },
         {
             "id": 9,
-            "name": "Random Acts of Kindness",
-            "path": "/songs/RandomActsofKindness.mp3"
+            "name": "Random Acts Of Kindness",
+            "path": "/songs/RandomActsOfKindness.mp3"
         },
         {
             "id": 10,
@@ -55,13 +55,13 @@
         },
         {
             "id": 11,
-            "name": "A Place to Crash",
-            "path": "/songs/APlacetoCrash.mp3"
+            "name": "A Place To Crash",
+            "path": "/songs/APlaceToCrash.mp3"
         },
         {
             "id": 12,
-            "name": "King of Bloke and Bird",
-            "path": "/songs/KingofBlokeandBird.mp3"
+            "name": "King Of Bloke And Bird",
+            "path": "/songs/KingOfBlokeAndBird.mp3"
         }
     ]
 }
